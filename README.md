@@ -1,2 +1,2 @@
 # python-challenge
-UCSD python homework
+UCSD - python homework
