@@ -73,7 +73,7 @@ with open(budget_csv, newline = '') as finance_data:
     #txt file 
     PyBank = open("./Analysis/budget_analysis.txt", "w+")
     PyBank.write("Financial Analysis")
-    PyBank.write("---------------------------------------")
+    PyBank.write('\n ---------------------------------------')
     PyBank.write('\n' + "Total Months: " + str(total_months))
     PyBank.write('\n' + "Total Amount: " + "$" + str(total_revenue))
     PyBank.write('\n' + "Average Change: " + "$" + str(av_change))
